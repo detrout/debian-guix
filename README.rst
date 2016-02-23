@@ -26,3 +26,12 @@ To build you need to do something like the following:
     sudo apt-get install build-essential dh-autoreconf dh-systemd autotools-dev graphviz guile-2.0-dev guile-json help2man libgcrypt20-dev libsqlite3-dev libbz2-dev texinfo
     dpkg-buildpackage
     sudo dpkg -i ../guix_0.9.0-1_amd64.deb ../emacs-guix_0.9.0-1_all.deb
+
+The post install script sets up the guixbuild users however you may still
+want to authorize Guix's build server hydra.gnu.org
+
+You can do that with
+
+..code:: bash
+
+    sudo guix archive --authorize /usr/share/guix/hydra.gnu.org.pub
