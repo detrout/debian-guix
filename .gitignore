@@ -1,0 +1,5 @@
+*.debhelper
+*.substvars
+guix/
+tmp/
+emacs-guix/
