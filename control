@@ -1,0 +1,46 @@
+Source: guix
+Section: admin
+Priority: optional
+Maintainer: Diane Trout <diane@ghic.org>
+Build-Depends: debhelper (>=9),
+ dh-autoreconf,
+ dh-systemd (>= 1.5),
+ autotools-dev,
+ graphviz,
+ guile-2.0-dev (>= 2.0.7),
+ guile-json,
+ help2man,
+ libgcrypt20-dev,
+ libsqlite3-dev,
+ libbz2-dev,
+ texinfo,
+Standards-Version: 3.9.6
+Homepage: http://www.gnu.org/software/guix
+#Vcs-Git: git://anonscm.debian.org/collab-maint/guix.git
+#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/guix.git
+
+Package: guix
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends},
+ adduser,
+ guile-2.0 (>= 2.0.7),
+ libgcrypt20-dev,
+Recommends: guile-json, guile-gnutls
+Description: Scheme based Functional Package Manager
+ Guix is a functional package manager using Scheme
+ for package definitions.
+ .
+ This contains the command line tools and daemon
+
+Package: emacs-guix
+Architecture: all
+Depends: ${misc:Built-Using}, ${misc:Depends}, ${elpa:Depends}
+ emacsen-common (>= 2.0.8),
+ guix,
+ elpa-geiser,
+ elpa-magit-popup,
+Description: Scheme based functional package manager - emacs support
+ Guix is a functional package manager using Scheme
+ for package definitions.
+ .
+ This contains the emacs support files.

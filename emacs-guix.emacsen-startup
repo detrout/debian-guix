@@ -1,0 +1,13 @@
+;;
+;; Emacs startup file for Guix
+
+(if (file-exists-p (concat "/usr/share"
+                           (symbol-name debian-emacs-flavor)
+                           "/site-lisp/emacs-guix/guix-init.el"))
+  (debian-pkg-add-load-path-item
+   (concat "/usr/share/" (symbol-name debian-emacs-flavor)
+           "/site-lisp/emacs-guix"))
+
+  (load "guix-init"))
+)
+               

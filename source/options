@@ -1,0 +1,1 @@
+extend-diff-ignore=ABOUT_NLS|INSTALL|Makefile.in|aclocal.m4|^build-aux/.*$|(.*\.gmo)|(.*\.png)|(.*\.go)|(^doc/guix-.*\.1)|

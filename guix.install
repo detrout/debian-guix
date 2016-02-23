@@ -1,0 +1,23 @@
+etc/bash_completion.d/guix usr/share/bash-completion/completions/
+usr/bin/guix
+usr/bin/guix-daemon
+usr/lib/*/guix-authenticate
+usr/lib/*/guix/
+usr/lib/*/systemd/system/guix-daemon.service /lib/systemd/system/
+usr/sbin/guix-register
+usr/share/guile/site/2.0/gnu.*
+usr/share/guile/site/2.0/gnu/artwork.*
+usr/share/guile/site/2.0/gnu/build/
+usr/share/guile/site/2.0/gnu/packages.*
+usr/share/guile/site/2.0/gnu/packages/
+usr/share/guile/site/2.0/gnu/services.*
+usr/share/guile/site/2.0/gnu/services/
+usr/share/guile/site/2.0/gnu/system.*
+usr/share/guile/site/2.0/gnu/system/
+usr/share/guile/site/2.0/guix.*
+usr/share/guile/site/2.0/guix/
+usr/share/guix/hydra.gnu.org.pub
+usr/share/info/guix.info*
+usr/share/info/images/*.png
+usr/share/locale/*
+usr/share/man/man1/

@@ -1,0 +1,5 @@
+guix (0.9.0-1) unstable; urgency=medium
+
+  * Initial release.
+
+ -- Diane Trout <diane@ghic.org>  Thu, 18 Feb 2016 12:24:11 -0800
