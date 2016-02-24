@@ -32,6 +32,39 @@ want to authorize Guix's build server hydra.gnu.org
 
 You can do that with
 
-..code:: bash
+.. code:: bash
 
     sudo guix archive --authorize /usr/share/guix/hydra.gnu.org.pub
+
+Using this package with guix git clones
+---------------------------------------
+
+Once you have the guix package installed you may want to
+modify or add new guix packages.
+
+The following recipe will clones the guix repository, and configures the
+checkout. ``dh_auto_configure`` is a convientent shortcut to set several
+configure arguments especially --localstatedir=/var
+
+Setting localstatedir is needed to find the guix-daemon socked and package
+database.
+
+Making the ~/.config/guix/latest symlink point to your checkout
+allows guix to find your changes to official packaging repositories.
+
+.. code:: bash
+
+    cd <your favorite project directory>
+    git clone git://git.savannah.gnu.org/guix.git
+    cd guix
+    ./bootstrap
+    dh_auto_configure
+    make	  
+    mkdir ~/.config/guix
+    cd ~/.config/guix
+    ln -s <your favorite project directory>/guix latest
+
+You can also use GUIX_PACKAGE_PATH to point to other directories
+where you have your own packages defined. 
+(However pointing GUIX_PACKAGE_PATH to the guix checkout causes trouble)
+
