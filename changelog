@@ -2,6 +2,7 @@ guix (0.9.0-2) UNRELEASED; urgency=medium
 
   * Update locations to be purged.
   * Fix typo in README.rst THANKS: Jan Nieuwenhuizen
+  * Switch to version=3 watchfile to be more *buntu friendly.
 
  -- Diane Trout <diane@ghic.org>  Wed, 24 Feb 2016 13:49:14 -0800
 
