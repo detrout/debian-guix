@@ -21,14 +21,15 @@ case "$1" in
            fi
 	fi
 
-	if [ -d /gnu/store ]; then
-	    rm -rf /gnu/store || echo "Could not remove /gnu/store"
-	fi
+	for dirname in /gnu/store /var/guix /var/log/guix ; do
+	    if [ -d $dirname ]; then
+		rm -rf $dirname || echo "Could not remove $dirname"
+	    fi
+	done
 
         if [ -d /gnu ] ; then
             rmdir /gnu || echo "Could not remove /gnu. Directory not empty"
         fi
-	
     ;;
     remove|upgrade|failed-upgrade|abort-install|abort-upgrade|disappear)
     ;;
