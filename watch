@@ -1,3 +1,3 @@
 version=3
 opts="pgpsigurlmangle=s/$/.sig/" \
-http://alpha.gnu.org/gnu/guix/ guix-([\d\.]+)\.tar\.gz debian uupdate
+http://alpha.gnu.org/gnu/guix/ guix-([\d\.]+)@ARCHIVE_EXT@ debian uupdate
