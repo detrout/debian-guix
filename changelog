@@ -3,6 +3,7 @@ guix (0.11.0-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Update standards-version no changes needed
   * Add netbase to build-depends. build needs /etc/services
+  * Replace generated code in .postinst with #DEBHELPER#
 
  --
 
