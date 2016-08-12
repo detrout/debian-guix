@@ -29,3 +29,5 @@ override_dh_auto_configure:
 
 override_dh_strip:
 	dh_strip -Xbootstrap
+
+.PHONY: override_dh_auto_test

@@ -4,8 +4,9 @@ guix (0.11.0-1) UNRELEASED; urgency=medium
   * Update standards-version no changes needed
   * Add netbase to build-depends. build needs /etc/services
   * Replace generated code in .postinst with #DEBHELPER#
+  * Disable tests in build.
 
- --
+ -- 
 
 guix (0.9.0-2) UNRELEASED; urgency=medium
 
