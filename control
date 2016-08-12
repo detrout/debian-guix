@@ -13,6 +13,7 @@ Build-Depends: debhelper (>=9),
  libgcrypt20-dev,
  libsqlite3-dev,
  libbz2-dev,
+ netbase,
  texinfo,
 Standards-Version: 3.9.8
 Homepage: http://www.gnu.org/software/guix
