@@ -1,3 +1,9 @@
+guix (0.12.0-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Diane Trout <diane@ghic.org>  Wed, 08 Mar 2017 10:01:26 -0800
+
 guix (0.11.0-1) UNRELEASED; urgency=medium
 
   * New upstream release.
