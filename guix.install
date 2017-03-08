@@ -4,6 +4,7 @@ usr/bin/guix-daemon
 usr/lib/*/guix-authenticate
 usr/lib/*/guix/
 usr/lib/*/systemd/system/guix-daemon.service /lib/systemd/system/
+usr/lib/*/systemd/system/guix-publish.service /lib/systemd/system/
 usr/sbin/guix-register
 usr/share/guile/site/2.0/gnu.*
 usr/share/guile/site/2.0/gnu/artwork.*
