@@ -5,6 +5,7 @@ guix (0.12.0-1) unstable; urgency=medium
   * Run bootstrap before dh_auto_clean.
     - distclean target tries to run configure, which needs some guile
       specific autoconf macros to be available.
+  * Depend on specific guile or guile metapackage.
 
  -- Diane Trout <diane@ghic.org>  Wed, 08 Mar 2017 10:01:26 -0800
 
