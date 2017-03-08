@@ -6,7 +6,7 @@ guix (0.12.0-2) unstable; urgency=medium
   * Install guix-publish systemd service
   * Install zsh completion file
 
- --
+ -- Diane Trout <diane@ghic.org>  Wed, 08 Mar 2017 14:17:13 -0800
 
 guix (0.12.0-1) unstable; urgency=medium
 
