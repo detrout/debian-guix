@@ -36,7 +36,7 @@ Description: Scheme based Functional Package Manager
 
 Package: emacs-guix
 Architecture: all
-Depends: ${misc:Built-Using}, ${misc:Depends}, ${elpa:Depends}
+Depends: ${misc:Built-Using}, ${misc:Depends}, ${elpa:Depends},
  emacsen-common (>= 2.0.8),
  guix,
  elpa-geiser,
