@@ -2,6 +2,9 @@ guix (0.12.0-1) unstable; urgency=medium
 
   * New upstream release.
   * Depend on either emacs24-nox | emacs24 to make easier for me to build.
+  * Run bootstrap before dh_auto_clean.
+    - distclean target tries to run configure, which needs some guile
+      specific autoconf macros to be available.
 
  -- Diane Trout <diane@ghic.org>  Wed, 08 Mar 2017 10:01:26 -0800
 

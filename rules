@@ -29,4 +29,8 @@ override_dh_auto_configure:
 override_dh_strip:
 	dh_strip -Xbootstrap
 
+override_dh_auto_clean:
+	$(CURDIR)/bootstrap
+	dh_auto_clean
+
 .PHONY: override_dh_auto_test
