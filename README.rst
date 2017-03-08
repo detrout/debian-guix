@@ -53,7 +53,7 @@ You can do that with
 
 .. code:: bash
 
-    sudo guix archive --authorize /usr/share/guix/hydra.gnu.org.pub
+    sudo guix archive --authorize < /usr/share/guix/hydra.gnu.org.pub
 
 Using this package with guix git clones
 ---------------------------------------
