@@ -14,6 +14,8 @@ usr/share/guile/site/2.0/gnu/services.*
 usr/share/guile/site/2.0/gnu/services/
 usr/share/guile/site/2.0/gnu/system.*
 usr/share/guile/site/2.0/gnu/system/
+usr/share/guile/site/2.0/gnu/tests.*
+usr/share/guile/site/2.0/gnu/tests/*
 usr/share/guile/site/2.0/guix.*
 usr/share/guile/site/2.0/guix/
 usr/share/guix/hydra.gnu.org.pub
