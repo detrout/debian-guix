@@ -33,4 +33,8 @@ override_dh_auto_clean:
 	$(CURDIR)/bootstrap
 	dh_auto_clean
 
+override_dh_install:
+	-rm debian/tmp/usr/lib/*/upstart/system/guix*.conf
+	dh_install --fail-missing
+
 .PHONY: override_dh_auto_test

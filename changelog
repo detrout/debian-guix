@@ -1,6 +1,8 @@
 guix (0.12.0-2) unstable; urgency=medium
 
   * Install some additional tests
+  * Remove upstart jobs
+  * fail to build if we forget to install something
 
  --
 
