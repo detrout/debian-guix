@@ -6,7 +6,7 @@ guix (0.11.0-1) UNRELEASED; urgency=medium
   * Replace generated code in .postinst with #DEBHELPER#
   * Disable tests in build.
 
- -- 
+ -- Diane Trout <diane@ghic.org>  Thu, 11 Aug 2016 22:40:23 -0700
 
 guix (0.9.0-2) UNRELEASED; urgency=medium
 
