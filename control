@@ -27,7 +27,7 @@ Depends: ${shlibs:Depends}, ${misc:Depends},
  adduser,
  guile-2.0 (>= 2.0.7) | guile,
  libgcrypt20-dev,
-Recommends: guile-json, guile-gnutls
+Recommends: guile-json, guile-gnutls, nscd
 Description: Scheme based Functional Package Manager
  Guix is a functional package manager using Scheme
  for package definitions.
