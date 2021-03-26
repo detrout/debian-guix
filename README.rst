@@ -1,3 +1,13 @@
+Update 2021 Mar 25
+------------------
+
+Vagrant Cascadian worked on getting a current version of
+guix into Debian proper.
+
+The packaging is in `https://github.com/detrout/debian-guix`_
+
+
+
 guix for Debian
 ---------------
 
